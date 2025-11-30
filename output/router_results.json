@@ -1,0 +1,155 @@
+{
+    "sentiment": {
+        "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF": {
+            "routing_latency": [
+                2.0112476348876953,
+                0.7131211757659912,
+                1.1334424018859863,
+                4.287943124771118,
+                1.1812756061553955,
+                0.8590302467346191,
+                0.7335984706878662,
+                1.1184232234954834,
+                1.2139482498168945,
+                0.886770486831665,
+                0.7365262508392334,
+                1.399113416671753,
+                0.9292285442352295,
+                0.6686666011810303
+            ],
+            "total_latency": [
+                null,
+                null,
+                4.295449256896973,
+                11.893766403198242,
+                8.871703147888184,
+                8.21030306816101,
+                7.079143047332764,
+                7.113471746444702,
+                9.955472230911255,
+                null,
+                7.615808010101318,
+                8.370145320892334,
+                null,
+                6.9691479206085205
+            ],
+            "responses": [
+                null,
+                null,
+                "{\"positive\": \"Negative\", \"negative\": \"Neutral\", \"neutral\": \"Neutral\"}",
+                "{",
+                "The following function was run: {",
+                "{\"text\": \"The review discusses feelings of fear and negativity related to the horrors of a bunker, suggesting a negative sentiment.\",\"answer\": \"Negative\"}",
+                "{\"Sentiment\": \"Positive\"}",
+                "{",
+                "The review contains a mixed sentiment but leans towards a positive outlook because it talks about theatrical renewal and surprises from humble budgets, despite mentioning disappointments at the end. It is not strongly negative or positive, suitable for basic sentiment analysis.",
+                null,
+                "{\"Sentiment: Positive, Reasoning: The task involves analyzing the sentiment of the text, which is a straightforward sentiment analysis without requiring generating new ideas. It is simple and directly related to sentiment classification.\"",
+                "{",
+                null,
+                ""
+            ]
+        },
+        "hf.co/bartowski/Llama-3.2-3B-Instruct-GGUF:Q4_K_M": {
+            "routing_latency": [
+                1.8277549743652344,
+                1.8296499252319336,
+                0.8870484828948975,
+                1.1955671310424805,
+                1.4258792400360107
+            ],
+            "total_latency": [
+                11.437378406524658,
+                13.154958486557007,
+                9.947449684143066,
+                14.26296877861023,
+                11.276417255401611
+            ],
+            "responses": [
+                "The sentiment associated with the given review is Neutral.",
+                "The sentiment associated with the given ReviewText is \"Positive\".",
+                "The sentiment associated with the given review is Positive.",
+                "The sentiment associated with the given review is \u201cNeutral\u201d, as it provides a balanced perspective without explicitly stating strong positive or negative sentiment.",
+                "The sentiment associated with the given review is Neutral."
+            ]
+        }
+    },
+    "recommendation": {
+        "hf.co/bartowski/Llama-3.2-1B-Instruct-GGUF": {
+            "routing_latency": [
+                0.8676207065582275,
+                1.2154827117919922
+            ],
+            "total_latency": [
+                3.964677572250366,
+                null
+            ],
+            "responses": [
+                "",
+                null
+            ]
+        },
+        "hf.co/bartowski/Llama-3.2-3B-Instruct-GGUF:Q4_K_M": {
+            "routing_latency": [
+                0.9146993160247803,
+                2.231720447540283,
+                0.938896656036377,
+                1.685027837753296,
+                0.8065652847290039,
+                0.9641962051391602,
+                1.2103586196899414,
+                1.662754774093628,
+                0.8241100311279297,
+                0.9282808303833008,
+                1.2275872230529785,
+                1.3214669227600098,
+                1.4897303581237793,
+                0.9738121032714844,
+                1.4712083339691162,
+                0.9737839698791504,
+                0.990694522857666,
+                1.0737955570220947
+            ],
+            "total_latency": [
+                null,
+                16.175161600112915,
+                11.43827223777771,
+                31.338754177093506,
+                9.301627159118652,
+                24.290024042129517,
+                23.21882462501526,
+                18.030154705047607,
+                12.802548170089722,
+                null,
+                19.920867443084717,
+                26.58435297012329,
+                null,
+                22.349159240722656,
+                15.981399297714233,
+                null,
+                27.741862773895264,
+                26.161128759384155
+            ],
+            "responses": [
+                null,
+                "Based on the suspense/thriller description and humorous review, I recommend a comedy film. A fitting recommendation is \\u201cZombieland\\u201d, which shares a similar tone of dark humor and lighthearted adventure.",
+                "A movie like Knives Out, with its blend of mystery, suspense, and witty dialogue, might be a good recommendation given the description and review provided.",
+                "A great alternative would be Misery, a psychological thriller about a writer held captive by his &quot;number one fan&quot;, also featuring elements of suspense and a confined setting. It shares similar themes with 10 Cloverfield Lane, such as intense situations and a focus on survival.",
+                "A gripping drama like Fight Club could be a good recommendation.",
+                "10 Cloverfield Lane is similar to Another Life, both are survival thrillers that take place in confined spaces, with a focus on character development and tense atmospheres.",
+                "A desolate dystopian thriller set in a post-apocalyptic world where humanity is on the brink of extinction, following a young woman named Alice as she navigates the dangers of her new environment and uncovers the secrets behind the catastrophic event that led to the downfall of society.",
+                "The Host",
+                "A dystopian thriller. The movie is about a young woman who wakes up in an underground bunker with two men after a car accident, and she must find a way to escape due to the toxic environment outside.",
+                null,
+                "Based on the context of the movie description and critic review, I recommend \\",
+                "A potentially fitting thriller recommendation could be \u201cThe Descent\u201d, a 2005 British horror film about a group of women who become trapped in an underground cave system and hunted by subterranean creatures.",
+                null,
+                "Based on the critic review of a psychological thriller and the description of a survival movie, I recommend another movie: The Hunger Games.",
+                "Based on the description of a post-apocalyptic thriller with a strong female protagonist taking matters into her own hands, I recommend the movie \\\"The Hunger Games\\\" starring Jennifer Lawrence.",
+                null,
+                "10 Cloverfield Lane is a great recommendation for fans of tense, psychological thrillers with plot twists and elements of survival and mystery. Another movie that fits this description is A Quiet Place.",
+                "The movie \\\"40 Days and 40 Nights\\\" (2002) starring Bruce Willis and Mary Elizabeth Winstead seems like a fitting recommendation based on the description of a woman surviving in an underground bunker with a controlling companion."
+            ]
+        }
+    }
+}

@@ -1,6 +1,7 @@
 transformers
 datasets
 ag2[ollama]
+ag2[openai]
 typing_extensions
 ollama
 fix-busted-json
